@@ -22,6 +22,7 @@
 #' head(res.DEswan$p)
 #' head(res.DEswan$coeff)
 #' 
+
 DEswan=function(data.df, qt, window.center, buckets.size, covariates){
   
   if(missing(data.df)==T){
